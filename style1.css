@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300&display=swap');
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+overflow-x: hidden;
+font-family: "Montserrat",serif;
+}
+.box{
+    box-shadow: 0 8px 10px rgba(0,0,0,0.1);
+    width: 800px;
+    height: fit-content;
+    background-color: #F8F8F8; 
+    border-radius: 8px;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block; 
+    color: #182442;
+    align-items: center;
+}
+.box2{ box-shadow: 0 8px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    height: 300px;
+    background-color: #F8F8F8; 
+    border-radius: 8px;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block; 
+    color: #182442;
+    align-items: center;
+}
+.parallax{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .p3{
+        background-image: url(./img/p3.jpg);
+        height: 300px;}
+        .produto-container {
+            display: flex; /* coloca lado a lado */
+            justify-content: center; /* centraliza no meio da tela */
+            align-items: center; /* alinha verticalmente */
+            gap: 40px; /* espaço entre imagem e info */
+            padding: 50px;
+            margin: 0 auto;
+          }
+          .produto-imagem img {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+          }
+          .produto-info {
+            color: #182442;
+            text-align: left; /* texto alinhado à esquerda */
+            max-width: 400px;
+          }
+          
+          .produto-info h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+          }
+          
+          .produto-info p {
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
+          
+          .but {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: #9a9fa3;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+          }
+          
+          .but:hover {
+            background-color: #283A60;
+          }
+          body {
+            text-align: center; /* Centraliza blocos dentro do body */
+            background-color: #283A60;
+          }
+          .but1 {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: #9a9fa3;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+          }
+          
+          .but1:hover {
+            background-color: #28602f;
+          }
